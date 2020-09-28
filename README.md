@@ -2,9 +2,9 @@
 
 [Readme FR](#user-content-open-source-rest-quick-start-fr)
 
-Hi ! Here is an open source project for quick-starting a REST API using J2EE.
-Fell free to do whatever you want with this code, it's free :) .
-The project has been designed and tested on `Wildfly 19`, `MariaDB 10.2` (a MySQL fork) and `JAVA 13` but I tried to use as much as possible the generic J2EE functions, so it should not be too hard to adapt.
+Hi ! Here is an open source project for quick-starting a REST API using J2EE.   
+Fell free to do whatever you want with this code, it's free :) .   
+The project has been designed and tested on `Wildfly 19`, `MariaDB 10.2` (a MySQL fork) and `JAVA 13` but I tried to use as much as possible the generic J2EE functions, so it should not be too hard to adapt.   
 You can, of course, ask me anything or contribute to the project to enhance it.
 
 This project provides the following functionalities :
@@ -127,9 +127,9 @@ For local testing, you can use local server, even if it does not exists. The tes
  
  
 # Open-source Rest Quick-start (FR)
-Salut ! Je mets à disposition un projet open-source pour démarrer une nouvelle API REST avec J2EE.
-Vous pouvez l'utiliser, en faire ce que vous voulez, c'est gratuit :).
-Le projet a été créé et testé en utilisant `Wildfly 19`, `MariaDB 10.2` (un projet parallèle à MySQL) et `JAVA 13` mais j'ai essayé d'utiliser au maximum les librairies génériques de J2EE, donc ça ne devrait pas être trop dur de l'adapter.
+Salut ! Je mets à disposition un projet open-source pour démarrer une nouvelle API REST avec J2EE.   
+Vous pouvez l'utiliser, en faire ce que vous voulez, c'est gratuit :).   
+Le projet a été créé et testé en utilisant `Wildfly 19`, `MariaDB 10.2` (un projet parallèle à MySQL) et `JAVA 13` mais j'ai essayé d'utiliser au maximum les librairies génériques de J2EE, donc ça ne devrait pas être trop dur de l'adapter.   
 Vous pouvez, bien sûr, me demander des précisions ou contribuer au projet pour l'améliorer.
 
 Ce projet rempli les fonctionnalités suivantes :
