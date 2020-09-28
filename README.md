@@ -1,6 +1,6 @@
 # Open-source Rest Quick-start (EN)
 
-[Readme FR](open-source-rest-quick-start-fr)
+[Readme FR](#user-content-open-source-rest-quick-start-fr)
 
 Hi ! Here is an open source project for quick-starting a REST API using J2EE.
 Fell free to do whatever you want with this code, it's free :) .
@@ -122,7 +122,7 @@ For local testing, you can use local server, even if it does not exists. The tes
 
 ### 6.c - Launch tests (eclipse)
  - Add the `$JBOSS_HOME=path_to_wildfly` as environment variable.
- - Add a `restquickstarttest` datasource to Wildfly (see [Chapter 3](#add-the-datasource-to-wildfly)) 
+ - Add a `restquickstarttest` datasource to Wildfly (see [Chapter 3](#user-content-3---add-the-datasource-to-wildfly)) 
  - Run the TestSuite.java file as a JUnit Test.
  
  
@@ -247,7 +247,7 @@ Pour tester en local, vous pouvez utiliser localhost, meme s'il n'existe pas. Le
 
 ### 6.c - Launch tests (eclipse)
  - Ajouter la variable d'environnement `$JBOSS_HOME=path_to_wildfly` 
- - Ajouter une datasource `restquickstarttest` à Wildfly (voir le [Chapitre 3](#ajouter-la-datasource-à-wildfly)) 
+ - Ajouter une datasource `restquickstarttest` à Wildfly (voir le [Chapitre 3](user-content-3---ajouter-la-datasource-à-wildfly)) 
  - Lancer le fichier TestSuite.java comme Test Junit
 
  
