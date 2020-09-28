@@ -247,7 +247,7 @@ Pour tester en local, vous pouvez utiliser localhost, meme s'il n'existe pas. Le
 
 ### 6.c - Launch tests (eclipse)
  - Ajouter la variable d'environnement `$JBOSS_HOME=path_to_wildfly` 
- - Ajouter une datasource `restquickstarttest` à Wildfly (voir le [Chapitre 3](user-content-3---ajouter-la-datasource-à-wildfly)) 
+ - Ajouter une datasource `restquickstarttest` à Wildfly (voir le [Chapitre 3](#user-content-3---ajouter-la-datasource-à-wildfly)) 
  - Lancer le fichier TestSuite.java comme Test Junit
 
  
