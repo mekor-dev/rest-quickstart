@@ -1,0 +1,791 @@
+{
+	"individual": [
+		{
+			"jaugeID": "Jauge Individual 1",
+			"title": {
+				"map": {
+					"fr": "Catégorie Individual 1"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 1.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 1.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 1.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.5"
+						}
+					}
+				}
+			]
+		},
+		{
+			"jaugeID": "Jauge Individual 2",
+			"title": {
+				"map": {
+					"fr": "Catégorie Individual 2"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 2.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 2.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 2.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.5"
+						}
+					}
+				}
+			]
+		},
+		{
+			"jaugeID": "Jauge Individual 3",
+			"title": {
+				"map": {
+					"fr": "Catégorie Individual 3"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 3.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 3.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 3.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.5"
+						}
+					}
+				}
+			]
+		}
+	],
+	"social": [
+		{
+			"jaugeID": "Jauge Social 1",
+			"title": {
+				"map": {
+					"fr": "Catégorie Social 1"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 1.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 1.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 1.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.5"
+						}
+					}
+				}
+			]
+		},
+		{
+			"jaugeID": "Jauge Social 2",
+			"title": {
+				"map": {
+					"fr": "Catégorie Social 2"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 2.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 2.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 2.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.5"
+						}
+					}
+				}
+			]
+		},
+		{
+			"jaugeID": "Jauge Social 3",
+			"title": {
+				"map": {
+					"fr": "Catégorie Social 3"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 3.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 3.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 3.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.5"
+						}
+					}
+				}
+			]
+		}
+	],
+	"reasoning": [
+		{
+			"jaugeID": "Jauge Reasoning 1",
+			"title": {
+				"map": {
+					"fr": "Catégorie Reasoning 1"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 1.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 1.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 1.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 1.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 1.5"
+						}
+					}
+				}
+			]
+		},
+		{
+			"jaugeID": "Jauge Reasoning 2",
+			"title": {
+				"map": {
+					"fr": "Catégorie Reasoning 2"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 2.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 2.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 2.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 2.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 2.5"
+						}
+					}
+				}
+			]
+		},
+		{
+			"jaugeID": "Jauge Reasoning 3",
+			"title": {
+				"map": {
+					"fr": "Catégorie Reasoning 3"
+				}
+			},
+			"summary": [
+				{
+					"map": {
+						"fr": "Summ 3.1"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 3.2"
+					}
+				},
+				{
+					"map": {
+						"fr": "Summ 3.3"
+					}
+				}
+			],
+			"subCategories": [
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.1"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.1"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.2"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.2"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.3"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.3"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.4"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.4"
+						}
+					}
+				},
+				{
+					"title": {
+						"map": {
+							"fr": "Sub 3.5"
+						}
+					},
+					"description": {
+						"map": {
+							"fr": "Desc 3.5"
+						}
+					}
+				}
+			]
+		}
+	]
+}
