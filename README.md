@@ -22,7 +22,7 @@ This project provides the following functionalities :
  - Mail system (you must configure your SMTP server)
  - Arquillian Tests with real database
 
-## Used frameworks and their documentation
+## Used libraries and their documentation
  - **J2EE / CDI**: [https://docs.oracle.com/javaee/7/index.html](https://docs.oracle.com/javaee/7/index.html)
  - **Hibernate**: [https://hibernate.org/orm/documentation/5.4/](https://hibernate.org/orm/documentation/5.4/)
  - **QueryDSL**: [http://www.querydsl.com/static/querydsl/4.1.3/reference/html_single/](http://www.querydsl.com/static/querydsl/4.1.3/reference/html_single/)
@@ -31,6 +31,7 @@ This project provides the following functionalities :
  - **Jackson**: [https://github.com/FasterXML/jackson-docs](https://github.com/FasterXML/jackson-docs)
  - **Enunciate**: [https://github.com/stoicflame/enunciate/wiki](https://github.com/stoicflame/enunciate/wiki)
  - **Arquillian**: [https://arquillian.org/guides/](https://arquillian.org/guides/)
+ - **JWT**: https://github.com/jwtk/jjwt
 
 ## Launching the app
 
