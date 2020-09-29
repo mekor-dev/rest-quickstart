@@ -157,6 +157,7 @@ Ce projet rempli les fonctionnalités suivantes :
  - **Jackson** : [https://github.com/FasterXML/jackson-docs](https://github.com/FasterXML/jackson-docs)
  - **Enunciate** : [https://github.com/stoicflame/enunciate/wiki](https://github.com/stoicflame/enunciate/wiki)
  - **Arquillian** : [https://arquillian.org/guides/](https://arquillian.org/guides/)
+ - **JWT** : https://github.com/jwtk/jjwt
 
 ## Lancer l'application
 
