@@ -22,7 +22,7 @@ This project provides the following functionalities :
  - Mail system (you must configure your SMTP server)
  - Arquillian Tests with real database
  
- For more details, check the [WIKI](https://github.com/mekor-dev/rest-quickstart/wiki) ! 
+ For more details, check the [Wiki](https://github.com/mekor-dev/rest-quickstart/wiki) ! 
 
 ## Used libraries and their documentation
  - **J2EE / CDI**: [https://docs.oracle.com/javaee/7/index.html](https://docs.oracle.com/javaee/7/index.html)
@@ -154,7 +154,7 @@ Ce projet rempli les fonctionnalités suivantes :
  - Système de mail (vous devez configurer votre serveur SMTP)
  - Des tests Arquillian avec une vraie base de données
  
- Pour plus d'info, rendez vous sur le [WIKI](https://github.com/mekor-dev/rest-quickstart/wiki) !
+ Pour plus d'info, rendez vous sur le [Wiki](https://github.com/mekor-dev/rest-quickstart/wiki) !
 
 ## Frameworks utilisés et leur documentation
  - **J2EE / CDI** : [https://docs.oracle.com/javaee/7/index.html](https://docs.oracle.com/javaee/7/index.html)
