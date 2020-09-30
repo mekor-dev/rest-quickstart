@@ -31,6 +31,7 @@ This project provides the following functionalities :
  - **Deltaspike**: [https://deltaspike.apache.org/documentation/](https://deltaspike.apache.org/documentation/)
  - **Resteasy**: [https://docs.jboss.org/resteasy/docs/3.11.2.Final/userguide/html_single/index.html](https://docs.jboss.org/resteasy/docs/3.11.2.Final/userguide/html_single/index.html)
  - **Jackson**: [https://github.com/FasterXML/jackson-docs](https://github.com/FasterXML/jackson-docs)
+ - **Mapstruct**: https://mapstruct.org/documentation/stable/reference/html/
  - **Enunciate**: [https://github.com/stoicflame/enunciate/wiki](https://github.com/stoicflame/enunciate/wiki)
  - **Arquillian**: [https://arquillian.org/guides/](https://arquillian.org/guides/)
  - **JWT**: https://github.com/jwtk/jjwt
@@ -162,6 +163,7 @@ Ce projet rempli les fonctionnalités suivantes :
  - **Deltaspike** : [https://deltaspike.apache.org/documentation/](https://deltaspike.apache.org/documentation/)
  - **Resteasy** : [https://docs.jboss.org/resteasy/docs/3.11.2.Final/userguide/html_single/index.html](https://docs.jboss.org/resteasy/docs/3.11.2.Final/userguide/html_single/index.html)
  - **Jackson** : [https://github.com/FasterXML/jackson-docs](https://github.com/FasterXML/jackson-docs)
+ - **Mapstruct** : https://mapstruct.org/documentation/stable/reference/html/
  - **Enunciate** : [https://github.com/stoicflame/enunciate/wiki](https://github.com/stoicflame/enunciate/wiki)
  - **Arquillian** : [https://arquillian.org/guides/](https://arquillian.org/guides/)
  - **JWT** : https://github.com/jwtk/jjwt
