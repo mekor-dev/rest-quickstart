@@ -130,6 +130,9 @@ For local testing, you can use local server, even if it does not exists. The tes
  
  
 # Open-source Rest Quick-start (FR)
+
+[Readme EN](#user-content-open-source-rest-quick-start-en)
+
 Salut ! Je mets à disposition un projet open-source pour démarrer une nouvelle API REST avec J2EE.   
 Vous pouvez l'utiliser, en faire ce que vous voulez, c'est gratuit :).   
 Le projet a été créé et testé en utilisant `Wildfly 19`, `MariaDB 10.2` (un projet parallèle à MySQL) et `JAVA 13` mais j'ai essayé d'utiliser au maximum les librairies génériques de J2EE, donc ça ne devrait pas être trop dur de l'adapter.   
