@@ -43,7 +43,7 @@ Install Wildfly 19 on your system: http://wildfly.org/downloads/.
 
 ### 2 - Create Database
 
-The MariaDB version must be at least 10.2 if you want to user localized strings !!!
+The MariaDB version must be at least 10.2 if you want to use localized strings !!!
 
 Create a Mysql database called `yourdbname` with UTF8-general-ci collation
 
