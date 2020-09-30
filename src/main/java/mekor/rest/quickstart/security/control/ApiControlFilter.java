@@ -81,7 +81,7 @@ public class ApiControlFilter implements ContainerRequestFilter {
 		}
 		// ControlAccessNotification
 		else if (apiUtils.isAnnotationPresent(resourceInfo, ControlAccessNotification.class)) {
-			Long notifID = findControlParamValue(ControlParams.NOTIFICATION_ID, Long.class);
+			Long notifID = Long.parseLong(findControlParamValue(ControlParams.NOTIFICATION_ID));
 			log.debug("ControlAccessNotification for notifID : {}", notifID);
 			authorization.canAccessNotification(notifService.findByIDHandleNotFound(notifID, currentRequest.isAdmin()));
 		}
@@ -107,25 +107,23 @@ public class ApiControlFilter implements ContainerRequestFilter {
 	 * @param type         Type of the parameter
 	 * @return The parameter value.
 	 */
-	private <T> T findControlParamValue(ControlParams controlParam, Class<T> type) {
+	private String findControlParamValue(ControlParams controlParam) {
 		try {
-			if (type.isAssignableFrom(Long.class)) {
-				for (Parameter param : resourceInfo.getResourceMethod().getParameters()) {
-					ControlParam annotation = param.getAnnotation(ControlParam.class);
-					if (annotation != null) {
-						if (controlParam == annotation.value()) {
-							return type.cast(Long.parseLong(uriInfo.getPathParameters().getFirst(param.getAnnotation(PathParam.class).value())));
-						}
+			for (Parameter param : resourceInfo.getResourceMethod().getParameters()) {
+				ControlParam annotation = param.getAnnotation(ControlParam.class);
+				if (annotation != null) {
+					if (controlParam == annotation.value()) {
+						return uriInfo.getPathParameters().getFirst(param.getAnnotation(PathParam.class).value());
 					}
 				}
 			}
 		}
 		catch (Exception e) {
-			log.error("Could not find pathParam value for controlParam {} and type {}", controlParam, type, e);
+			log.error("Could not find pathParam value for controlParam {}", controlParam, e);
 			throw new AuthorizationException(500, "Error while authorizing access to the service");
 		}
 
-		log.error("Could not find pathParam value for controlParam {} and type {}", controlParam, type);
+		log.error("Could not find pathParam value for controlParam {}", controlParam);
 		throw new AuthorizationException(500, "Error while authorizing access to the service");
 	}
 
