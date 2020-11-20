@@ -27,7 +27,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.jvnet.mock_javamail.Mailbox;
 
-import mekor.rest.quickstart.api.ForgottenPasswordAPI;
 import mekor.rest.quickstart.api.ForgottenPasswordAPI.ChangePasswordBody;
 import mekor.rest.quickstart.api.ForgottenPasswordAPI.CheckTokenBody;
 import mekor.rest.quickstart.api.ForgottenPasswordAPI.RequestTokenBody;

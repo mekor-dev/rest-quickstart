@@ -35,10 +35,8 @@ import mekor.rest.quickstart.model.entities.notification.QNotification;
 import mekor.rest.quickstart.model.entities.user.QUser;
 import mekor.rest.quickstart.model.mappers.NotificationMapper;
 import mekor.rest.quickstart.model.mappers.NotificationPutMapper;
-import mekor.rest.quickstart.security.control.ControlParams;
 import mekor.rest.quickstart.security.control.annotations.ControlAccessNotification;
 import mekor.rest.quickstart.security.control.annotations.ControlLoggedIn;
-import mekor.rest.quickstart.security.control.annotations.param.ControlParam;
 import mekor.rest.quickstart.services.NotificationService;
 import mekor.rest.quickstart.utils.lazyloading.LazyLoadingConfiguration;
 import mekor.rest.quickstart.utils.lazyloading.LazyLoadingFilterOperator;
@@ -112,9 +110,9 @@ public class NotificationAPI {
 
 	@PUT
 	@TypeHint(NotificationDTO.class)
-	@ControlAccessNotification
+	@ControlAccessNotification(notifID = "id")
 	@Path("/{id}")
-	public Response put(@ControlParam(ControlParams.NOTIFICATION_ID) @PathParam("id") Long id, @Valid @NotNull NotificationPutDTO body) {
+	public Response put(@PathParam("id") Long id, @Valid @NotNull NotificationPutDTO body) {
 		log.debug("Entering put(id: {}, body: {})", id, body);
 
 		if (!id.equals(body.id)) {

@@ -236,4 +236,14 @@ public class APIUtils {
 	public boolean isAnnotationPresent(ResourceInfo resourceInfo, Class<? extends Annotation> annotationClass) {
 		return resourceInfo.getResourceMethod().isAnnotationPresent(annotationClass) || resourceInfo.getResourceClass().isAnnotationPresent(annotationClass);
 	}
+
+	public <T extends Annotation> T getAnnotation(ResourceInfo resourceInfo, Class<T> annotationClass) {
+		T res = resourceInfo.getResourceMethod().getAnnotation(annotationClass);
+		if (res != null) {
+			return res;
+		}
+		else {
+			return resourceInfo.getResourceClass().getAnnotation(annotationClass);
+		}
+	}
 }

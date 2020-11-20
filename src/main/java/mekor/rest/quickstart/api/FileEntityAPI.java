@@ -35,9 +35,7 @@ import mekor.rest.quickstart.model.dtos.file.FileEntityDTO;
 import mekor.rest.quickstart.model.entities.file.FileEntity;
 import mekor.rest.quickstart.model.entities.file.SupportedFileExtension;
 import mekor.rest.quickstart.model.mappers.FileEntityMapper;
-import mekor.rest.quickstart.security.control.ControlParams;
 import mekor.rest.quickstart.security.control.annotations.ControlLoggedIn;
-import mekor.rest.quickstart.security.control.annotations.param.ControlParam;
 import mekor.rest.quickstart.services.FileEntityService;
 
 /**
@@ -84,7 +82,7 @@ public class FileEntityAPI {
 	@Path("/{id}")
 	@TypeHint(FileEntityDTO.class)
 	@ControlLoggedIn
-	public Response getOne(@PathParam("id") @ControlParam(ControlParams.FILE_ENTITY_ID) Long id) {
+	public Response getOne(@PathParam("id") Long id) {
 		log.debug("Entering getOne({})", id);
 
 		FileEntity file = fileEntityService.findByIDHandleNotFound(id, currentRequest.isAdmin());

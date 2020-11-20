@@ -4,12 +4,12 @@
 package mekor.rest.quickstart.security.control;
 
 import java.io.IOException;
-import java.lang.reflect.Parameter;
+import java.util.List;
+import java.util.Map.Entry;
 
 import javax.annotation.Priority;
 import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Priorities;
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerRequestFilter;
@@ -28,7 +28,6 @@ import mekor.rest.quickstart.security.control.annotations.ControlAccessNotificat
 import mekor.rest.quickstart.security.control.annotations.ControlAdmin;
 import mekor.rest.quickstart.security.control.annotations.ControlLoggedIn;
 import mekor.rest.quickstart.security.control.annotations.ControlPublic;
-import mekor.rest.quickstart.security.control.annotations.param.ControlParam;
 import mekor.rest.quickstart.services.NotificationService;
 
 /**
@@ -81,7 +80,8 @@ public class ApiControlFilter implements ContainerRequestFilter {
 		}
 		// ControlAccessNotification
 		else if (apiUtils.isAnnotationPresent(resourceInfo, ControlAccessNotification.class)) {
-			Long notifID = Long.parseLong(findControlParamValue(ControlParams.NOTIFICATION_ID));
+			ControlAccessNotification annotation = apiUtils.getAnnotation(resourceInfo, ControlAccessNotification.class);
+			Long notifID = Long.parseLong(findPathParamValue(annotation.notifID()));
 			log.debug("ControlAccessNotification for notifID : {}", notifID);
 			authorization.canAccessNotification(notifService.findByIDHandleNotFound(notifID, currentRequest.isAdmin()));
 		}
@@ -99,31 +99,20 @@ public class ApiControlFilter implements ContainerRequestFilter {
 	}
 
 	/**
-	 * Find in pathParam the parameter value corresponding to the controlParam and
-	 * cast it to the type given in parameter.
+	 * Find a pathParam by name
 	 * 
-	 * @param controlParam Value of the controlParam annotating the parameter to
-	 *                     find
-	 * @param type         Type of the parameter
+	 * @param pathparam Name of the pathParameter to find
+	 * @param type      Type of the parameter
 	 * @return The parameter value.
 	 */
-	private String findControlParamValue(ControlParams controlParam) {
-		try {
-			for (Parameter param : resourceInfo.getResourceMethod().getParameters()) {
-				ControlParam annotation = param.getAnnotation(ControlParam.class);
-				if (annotation != null) {
-					if (controlParam == annotation.value()) {
-						return uriInfo.getPathParameters().getFirst(param.getAnnotation(PathParam.class).value());
-					}
-				}
+	private String findPathParamValue(String pathparam) {
+		for (Entry<String, List<String>> param : uriInfo.getPathParameters().entrySet()) {
+			if (param.getKey().equals(pathparam)) {
+				return param.getValue().get(0);
 			}
 		}
-		catch (Exception e) {
-			log.error("Could not find pathParam value for controlParam {}", controlParam, e);
-			throw new AuthorizationException(500, "Error while authorizing access to the service");
-		}
 
-		log.error("Could not find pathParam value for controlParam {}", controlParam);
+		log.error("Could not find pathParam with given name for notifID param");
 		throw new AuthorizationException(500, "Error while authorizing access to the service");
 	}
 

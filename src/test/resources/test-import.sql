@@ -80,3 +80,7 @@ INSERT INTO `MailMessageHTML` (`messageType`, `html`, `language`) VALUES
 ('FORGOTTEN_PASSWORD', '<div>Hello {userName}</div>\r\n<div>Forgotten password</div>\r\n<div>Link: {forgotten_password_link}</div>', 'en'),
 ('FORGOTTEN_PASSWORD', '<div>Bonjour {userName}</div>\r\n<div>Mot de passe oublié</div>\r\n<div>Lien: {forgotten_password_link}</div>', 'fr');
 
+INSERT INTO `Notification` (`id`, `creationDate`, `deleted`, `updateDate`, `redirection`, `seen`, `title`, `type`, `senderID`, `userID`) VALUES 
+(1, '2020-11-20 00:00:00', b'0', '2020-11-20 00:00:00', '/redirect', b'0', '{\"fr\":\"Notif du user 1\"}', 'PROFILE_VALIDATION_REQUESTED', '1', '1'),
+(2, '2020-11-20 00:00:00', b'0', '2020-11-20 00:00:00', '/redirect2', b'0', '{\"fr\":\"Notif du user 2\"}', 'PROFILE_VALIDATION_REQUESTED', '1', '2');
+

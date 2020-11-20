@@ -16,7 +16,6 @@ import org.junit.runner.RunWith;
 
 import com.google.common.net.HttpHeaders;
 
-import mekor.rest.quickstart.api.AccessTokenAPI;
 import mekor.rest.quickstart.configuration.AppConfig;
 import mekor.rest.quickstart.configuration.ArquillianTest;
 import mekor.rest.quickstart.configuration.TestResourcesURL;

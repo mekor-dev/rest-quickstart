@@ -31,7 +31,6 @@ import org.junit.runner.RunWith;
 
 import com.google.common.net.HttpHeaders;
 
-import mekor.rest.quickstart.api.FileEntityAPI;
 import mekor.rest.quickstart.api.utils.error.APIError;
 import mekor.rest.quickstart.configuration.AppConfig;
 import mekor.rest.quickstart.configuration.ArquillianTest;

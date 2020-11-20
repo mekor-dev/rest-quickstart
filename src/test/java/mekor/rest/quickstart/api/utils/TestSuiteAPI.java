@@ -8,6 +8,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 import mekor.rest.quickstart.api.TestAuthentication;
+import mekor.rest.quickstart.api.TestControlAccessNotification;
 import mekor.rest.quickstart.api.TestFileEntityAPI;
 import mekor.rest.quickstart.api.TestForgottenPasswordAPI;
 import mekor.rest.quickstart.api.TestHeadersFilter;
@@ -27,6 +28,7 @@ import mekor.rest.quickstart.api.TestSSEAPI;
 		TestHeadersFilter.class,
 		TestHelloWorldAPI.class,
 		TestLocaleFilter.class,
+		TestControlAccessNotification.class,
 		TestSSEAPI.class
 })
 

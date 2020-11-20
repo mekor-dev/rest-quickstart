@@ -22,7 +22,6 @@ import org.junit.runner.RunWith;
 
 import com.google.common.net.HttpHeaders;
 
-import mekor.rest.quickstart.api.SSEAPI;
 import mekor.rest.quickstart.configuration.ArquillianTest;
 import mekor.rest.quickstart.configuration.TestResourcesURL;
 import mekor.rest.quickstart.configuration.TestSingleton;

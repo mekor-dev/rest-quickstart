@@ -8,15 +8,11 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import mekor.rest.quickstart.security.control.ControlParams;
-import mekor.rest.quickstart.security.control.annotations.param.ControlParam;
-
 /**
  * Annotate an API service with this to check if the user has access to a
  * notification. <br />
  * <br />
- * The notificationID pathParameter must be annotated
- * with @{@link ControlParam}({@link ControlParams#NOTIFICATION_ID}).
+ * The notifID parameter must be name of the corresponding pathparam.
  * 
  * @author mekor
  *
@@ -24,5 +20,7 @@ import mekor.rest.quickstart.security.control.annotations.param.ControlParam;
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.TYPE, ElementType.METHOD })
 public @interface ControlAccessNotification {
+
+	public String notifID();
 
 }

@@ -11,8 +11,8 @@ import mekor.rest.quickstart.api.AccessTokenAPI;
 import mekor.rest.quickstart.api.FileEntityAPI;
 import mekor.rest.quickstart.api.ForgottenPasswordAPI;
 import mekor.rest.quickstart.api.HelloWorldAPI;
+import mekor.rest.quickstart.api.NotificationAPI;
 import mekor.rest.quickstart.api.SSEAPI;
-import mekor.rest.quickstart.configuration.AppConfig;
 
 /**
  * Holds Root URLs of API resources to be used in client calls.
@@ -32,6 +32,7 @@ public class TestResourcesURL {
 			.put(HelloWorldAPI.class, "/status")
 			.put(FileEntityAPI.class, "/files")
 			.put(SSEAPI.class, "/sse")
+			.put(NotificationAPI.class, "/notifications")
 			.build();
 
 	public String get(Class<?> clazz) {

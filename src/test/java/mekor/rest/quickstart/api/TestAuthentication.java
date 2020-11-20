@@ -26,7 +26,6 @@ import com.google.common.net.HttpHeaders;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;
-import mekor.rest.quickstart.api.AccessTokenAPI;
 import mekor.rest.quickstart.api.AccessTokenAPI.AuthenticateResponse;
 import mekor.rest.quickstart.api.AccessTokenAPI.RefreshAccessTokenBody;
 import mekor.rest.quickstart.api.AccessTokenAPI.RefreshAccessTokenResponse;
